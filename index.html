@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Daybridge – The Classic Phone Snake, Explained</title>
+<style>
+:root{color-scheme:dark;--bg:#0a0e14;--surf:#121923;--tx:#eaf2ff;--mu:#93a4bd;--ac:#39ff88;--ac2:#ffb703;--ac3:#8b5cf6;--bd:#1e2a3a;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box;margin:0}
+body{background:radial-gradient(900px 400px at 80% -5%,rgba(139,92,246,.22),transparent),radial-gradient(700px 400px at 0% 10%,rgba(57,255,136,.13),transparent),var(--bg);background-color:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65}
+.w{max-width:1040px;margin:auto;padding:0 20px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+.logo{font-weight:800;font-size:1.4rem}.logo span{color:var(--ac)}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--ac),var(--ac2));color:#06130c;padding:14px 28px;border-radius:99px;text-decoration:none;font-weight:800}
+.hero{text-align:center;padding:52px 0 40px}
+.tag{display:inline-block;background:var(--surf);border:1px solid var(--bd);padding:6px 16px;border-radius:99px;font-size:.85rem;color:var(--ac)}
+h1{font-size:clamp(2.1rem,6vw,3.6rem);line-height:1.12;margin:20px 0}
+h1 em{font-style:normal;background:linear-gradient(135deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:640px;margin:0 auto 26px;color:var(--mu);font-size:1.1rem}
+.screen{width:min(320px,86%);margin:34px auto 0;background:#a8c66c;border:8px solid #2a3340;border-radius:18px;padding:8px;box-shadow:0 0 40px rgba(57,255,136,.25)}
+.b{display:grid;grid-template-columns:repeat(12,1fr);gap:2px}
+.b i{aspect-ratio:1;background:rgba(20,40,10,.08);border-radius:2px}
+.b i.s{background:#1b2a10}.b i.f{background:#7a1f1f;border-radius:50%}
+section{padding:40px 0}
+h2{text-align:center;font-size:clamp(1.5rem,4vw,2.2rem);margin-bottom:8px}
+.lead{text-align:center;color:var(--mu);margin:0 auto 30px;max-width:620px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:var(--surf);border:1px solid var(--bd);border-radius:20px;padding:26px}
+.card:nth-child(3n+1){border-top:3px solid var(--ac)}.card:nth-child(3n+2){border-top:3px solid var(--ac2)}.card:nth-child(3n){border-top:3px solid var(--ac3)}
+.card .i{font-size:1.8rem}.card h3{margin:10px 0 6px}.card p{color:var(--mu);font-size:.95rem}
+.k{display:inline-block;background:#0a0e14;border:1px solid var(--ac);color:var(--ac);border-radius:8px;padding:2px 10px;font-weight:800;margin-right:4px}
+.tl{max-width:640px;margin:auto;border-left:2px solid var(--bd);padding-left:22px}
+.tl div{margin-bottom:22px;position:relative}
+.tl div:before{content:"";position:absolute;left:-30px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--ac2)}
+.tl b{color:var(--ac2)}.tl p{color:var(--mu)}
+.note{background:var(--surf);border:1px dashed var(--ac3);border-radius:20px;padding:22px;text-align:center;color:var(--mu)}
+.band{background:linear-gradient(135deg,#1b1146,#0e3b2a);border:1px solid var(--bd);border-radius:28px;padding:46px 24px;text-align:center}
+.band p{color:var(--mu);max-width:580px;margin:10px auto 22px}
+footer{text-align:center;color:var(--mu);padding:36px 0;font-size:.9rem}
+</style>
+</head>
+<body>
+<div class="w">
+<nav><div class="logo">Day<span>bridge</span></div><a class="btn" href="#how">Discover More Today</a></nav>
+
+<header class="hero">
+<span class="tag">Retro phone classic · Simple · Easy to follow</span>
+<h1>The classic phone <em>Snake</em>, explained.</h1>
+<p>Before touchscreens, millions of people picked up a basic keypad phone and played this tiny puzzle every day. Experience a simple way to understand how it works, why it became so familiar, and what makes it easy to enjoy.</p>
+<a class="btn" href="#how">Start Exploring Today</a>
+<div class="screen"><div class="b" id="b"></div></div>
+</header>
+
+<section id="how">
+<h2>How it works</h2>
+<p class="lead">Find useful information in four simple rules.</p>
+<div class="grid">
+<div class="card"><div class="i">🐍</div><h3>Steer the snake</h3><p>A small snake keeps moving on its own. Your only job is to choose its direction.</p></div>
+<div class="card"><div class="i">🍎</div><h3>Reach the food</h3><p>Each time it reaches a food dot, the snake grows longer and your score goes up.</p></div>
+<div class="card"><div class="i">🧱</div><h3>Avoid the walls</h3><p>Touching the edge of the screen ends the round on most classic versions.</p></div>
+<div class="card"><div class="i">⛓️</div><h3>Don’t bite yourself</h3><p>As the snake grows, free space shrinks. Planning ahead becomes the real challenge.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Controls on a keypad phone</h2>
+<p class="lead">Simple &amp; Convenient: only four number keys were needed.</p>
+<div class="grid">
+<div class="card"><h3><span class="k">2</span> Up</h3><p>Turn the snake upward.</p></div>
+<div class="card"><h3><span class="k">8</span> Down</h3><p>Turn the snake downward.</p></div>
+<div class="card"><h3><span class="k">4</span> Left</h3><p>Turn the snake to the left.</p></div>
+<div class="card"><h3><span class="k">6</span> Right</h3><p>Turn the snake to the right.</p></div>
+</div>
+</section>
+
+<section>
+<h2>A short history</h2>
+<p class="lead">Learn More Online: a small idea that travelled far.</p>
+<div class="tl">
+<div><b>Classic idea</b><p>The snake-and-food concept existed on computers long before mobile phones.</p></div>
+<div><b>1997</b><p>It came pre-installed on the Nokia 6110, putting it in the hands of a very large audience.</p></div>
+<div><b>Later years</b><p>It reappeared in new versions, colors and screens, and is still easy to find today.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Tips for smoother runs</h2>
+<p class="lead">Make Your Next Move count with a few easy habits.</p>
+<div class="grid">
+<div class="card"><div class="i">🔄</div><h3>Move in loops</h3><p>Long, steady loops keep open space available for longer.</p></div>
+<div class="card"><div class="i">🧭</div><h3>Stay near the edges</h3><p>Keeping the body along the border leaves the middle free for food.</p></div>
+<div class="card"><div class="i">🐢</div><h3>Stay calm at speed</h3><p>As the snake speeds up, small, early turns work better than sudden ones.</p></div>
+<div class="card"><div class="i">👁️</div><h3>Look two moves ahead</h3><p>Check where the tail will be before you commit to a turn.</p></div>
+</div>
+</section>
+
+<section>
+<div class="note"><b>Good to know:</b> This page is for information only and does not promote any product or service. Short daily breaks are fine, but remember to rest your eyes and take time away from the screen too.</div>
+</section>
+
+<section>
+<div class="band">
+<h2>Discover Something New</h2>
+<p>Sometimes the simplest ideas stay with us the longest. Get started today and see why this tiny classic is still remembered.</p>
+<a class="btn" href="#how">Back to the Rules</a>
+</div>
+</section>
+
+<footer>© Daybridge · Simple stories that connect yesterday and today</footer>
+</div>
+<script>
+(function(){var b=document.getElementById('b'),c=12,r=8,h='';
+var snake=[[1,5],[2,5],[3,5],[4,5],[5,5],[5,4],[5,3],[6,3],[7,3],[8,3]],food=[10,5];
+for(var y=0;y<r;y++)for(var x=0;x<c;x++){var cl='';
+if(snake.some(function(p){return p[0]==x&&p[1]==y}))cl='s';
+else if(food[0]==x&&food[1]==y)cl='f';
+h+='<i class="'+cl+'"></i>'}
+b.innerHTML=h})();
+</script>
+</body>
+</html>
